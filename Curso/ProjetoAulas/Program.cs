@@ -25,5 +25,11 @@ bool ativo = false;
 ativo = true;
 Console.WriteLine(ativo);
 
+// Isso é uma constante
 const string descricao = "Curso C#";
+// descricao = "Curso";
+/*
+  Linha 1
+  Linha 2
+*/
 Console.WriteLine(descricao);
