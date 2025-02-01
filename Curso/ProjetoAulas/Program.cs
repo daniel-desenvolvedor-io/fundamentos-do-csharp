@@ -22,4 +22,8 @@ char flag = 'y';
 Console.WriteLine(flag);
 
 bool ativo = false;
+ativo = true;
 Console.WriteLine(ativo);
+
+const string descricao = "Curso C#";
+Console.WriteLine(descricao);
