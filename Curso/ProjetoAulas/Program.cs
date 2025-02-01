@@ -1,14 +1,20 @@
 ﻿int numero1 = 1;
-var numero2 = 2;
+int numero2 = 2;
 
-int soma = numero1 + numero2;
-Console.WriteLine(soma);
+bool igual = numero1 == numero2;
+Console.WriteLine(igual);
 
-int subtracao = numero2 - numero1;
-Console.WriteLine(subtracao);
+bool maior = numero1 > numero2;
+Console.WriteLine(maior);
 
-int multiplicacao = (numero2 * numero1) * 10;
-Console.WriteLine(multiplicacao);
+bool menor = numero1 < numero2;
+Console.WriteLine(menor);
 
-int divisao = numero2 / numero1;
-Console.WriteLine(divisao);
+bool maiorOuIgual = numero1 >= numero2;
+Console.WriteLine(maiorOuIgual);
+
+bool menorOuIgual = numero1 <= numero2;
+Console.WriteLine(menorOuIgual);
+
+bool diferente = numero1 != numero2;
+Console.WriteLine(diferente);
